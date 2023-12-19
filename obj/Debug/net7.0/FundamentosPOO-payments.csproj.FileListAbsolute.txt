@@ -1,0 +1,14 @@
+C:\Prog\balta\02\FundamentosPOO-payments\obj\Debug\net7.0\FundamentosPOO-payments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Prog\balta\02\FundamentosPOO-payments\obj\Debug\net7.0\FundamentosPOO-payments.AssemblyInfoInputs.cache
+C:\Prog\balta\02\FundamentosPOO-payments\obj\Debug\net7.0\FundamentosPOO-payments.AssemblyInfo.cs
+C:\Prog\balta\02\FundamentosPOO-payments\obj\Debug\net7.0\FundamentosPOO-payments.csproj.CoreCompileInputs.cache
+C:\Prog\balta\02\FundamentosPOO-payments\bin\Debug\net7.0\FundamentosPOO-payments.exe
+C:\Prog\balta\02\FundamentosPOO-payments\bin\Debug\net7.0\FundamentosPOO-payments.deps.json
+C:\Prog\balta\02\FundamentosPOO-payments\bin\Debug\net7.0\FundamentosPOO-payments.runtimeconfig.json
+C:\Prog\balta\02\FundamentosPOO-payments\bin\Debug\net7.0\FundamentosPOO-payments.dll
+C:\Prog\balta\02\FundamentosPOO-payments\bin\Debug\net7.0\FundamentosPOO-payments.pdb
+C:\Prog\balta\02\FundamentosPOO-payments\obj\Debug\net7.0\FundamentosPOO-payments.dll
+C:\Prog\balta\02\FundamentosPOO-payments\obj\Debug\net7.0\refint\FundamentosPOO-payments.dll
+C:\Prog\balta\02\FundamentosPOO-payments\obj\Debug\net7.0\FundamentosPOO-payments.pdb
+C:\Prog\balta\02\FundamentosPOO-payments\obj\Debug\net7.0\FundamentosPOO-payments.genruntimeconfig.cache
+C:\Prog\balta\02\FundamentosPOO-payments\obj\Debug\net7.0\ref\FundamentosPOO-payments.dll
