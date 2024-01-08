@@ -6,8 +6,11 @@ namespace Payments
     {
         static void Main(string[] args)
         {
-            var payment = new BoletoPayment(DateTime.Now.AddMonths(1));
-            payment.Pay("342131");
+            // Using and Dispose
+            using (var payment = new BoletoPayment(DateTime.Now.AddMonths(1)))
+            {
+                payment.Pay("342131");
+            }
         }
     }
 
@@ -19,8 +22,8 @@ namespace Payments
         public: acessado em toda a aplicação 
     */
 
-    // Encapsulamento
-    public class Payment
+    // Encapsulamento   // Using and Dispose
+    public class Payment : IDisposable
     {
 
         // Método construtor
@@ -43,11 +46,17 @@ namespace Payments
         public override string ToString()
         {
             return ExpireAt.ToString("dd,mm,aa");
-        } 
+        }
+
+        // Using and Dispose
+        public virtual void Dispose() 
+        {
+            Console.WriteLine("Finalizando pagamento\n");
+        }
     }
 
-    // Herança
-    class BoletoPayment : Payment
+                            // Herança
+    public class BoletoPayment : Payment
     {
 
         // Método construtor
@@ -67,7 +76,8 @@ namespace Payments
         }
     }
 
-    class CreditCardPayment : Payment 
+       // Classe selada - não pode ser extendida
+    public sealed class CreditCardPayment : Payment 
     {
 
         // Método construtor
@@ -89,6 +99,12 @@ namespace Payments
         {
 
         }
+    }
+
+    // Classe estatica - não pode ser instanciada
+    public static class Settings
+    {
+        public static string API_URL { get; set; }
     }
 
     // Tipos complexos
